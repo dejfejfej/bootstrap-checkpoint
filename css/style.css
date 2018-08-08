@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+*{padding: 0;
+margin: 0;}
+.cover{
+	background : url("../res/cover.jpg") center no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	background-color: #eee;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+#mahmoud{
+	position: relative;
+	width: 200px;
+	height: 210px;
+	border-radius: 50%;
+	margin: auto;
+	top: -100px;
+	display: block;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.content{
+	color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.social{
+	color: #2196F3;
+	position: relative;
+    top: -50px;
+    display: block;
+    text-align: center;
+}
+.social i {
+    padding: 3px;
+}
+.social i:hover{
+	    color: #666;
+    cursor: pointer;
+}
+.name{
+	 font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    color: #444;
+}
+.name:hover {
+    color: #222;
+    text-decoration: underline;
+    cursor: default;
+    }
+.job{
+	text-align: center;
+    position: relative;
+    top: -60px;
+    opacity: .5;
+    font-size: 18px;
+}
+.academic{
+	 font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #2196F3;
+}
+.hobbies .row {
+    margin-top: 60px;
+}
+.hobbies i {
+    color: #222;
+    padding: 30px;
+    transition: transform .5s;
+}
+
+
+.hobbies p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #222;
+    /* opacity:  */
+    position: relative;
+    left: -30px;
+    opacity: 0;
+}
+.hobbies i:hover {
+    color: #2196F3;;
+    transform: rotate(360deg);
+    transition: all .37s;
+}
+.projects img {
+    border-radius: 3.5px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    transition: box-shadow .3s;
+}
+.projects img:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow .3s;
+}
+
+.show {
+    left: 0 !important;
+    opacity: 1 !important;
+    transition: all .37s ease-in-out;
+    color: #2196F3 !important;
+}
